@@ -1,0 +1,16 @@
+import java.util.*;
+public class Exercise_4_7 {
+    static Scanner in = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        String name;
+        int salary;
+        System.out.println("Enter employee name: ");
+        name = in.nextLine();
+        System.out.println("Enter employee's salary: ");
+        salary = in.nextInt();
+        Employee emp = new Employee(name, salary);
+        emp.calculate();
+        emp.display();
+    }
+}
