@@ -39,15 +39,15 @@ public class Exercise_6 {
     }
     public static void showDataDs(){
         dayStudents[0].showTitle();
-        for(int i = 0; i < dayStudents.length; i++){
-            dayStudents[i].showInfo();
+        for(Student ds : dayStudents){
+            ds.showInfo();
         }
         System.out.println("\n------------------------------------");
     }
     public static void showDataNs(){
         nightStudents[0].showTitle();
-        for(int i = 0; i < nightStudents.length; i++){
-            nightStudents[i].showInfo();
+        for (NightStudent ns : nightStudents ){
+            ns.showInfo();
         }
         System.out.println("\n------------------------------------");
     }
