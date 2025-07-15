@@ -3,7 +3,7 @@ import java.nio.file.*;
 public class MakeDirectories {
     public static void main(String[] args) throws Exception {
 
-        for (int unit = 1; unit <= 6; unit++) {
+        for (int unit = 8; unit <= 16; unit++) {
             String basePath = "src/Unit_" + unit + "/";
             Path root = Paths.get(basePath);
 
@@ -14,7 +14,7 @@ public class MakeDirectories {
 
             // Create Example folders
             Path examplesRoot = Paths.get(basePath + "Examples/");
-            for (int ex = 1; ex <= 10; ex++) {
+            for (int ex = 1; ex <= 14; ex++) {
                 Files.createDirectories(examplesRoot.resolve("Example_" + ex));
             }
 
