@@ -1,15 +1,30 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.nio.file.*;
 
 public class MakeDirectories {
     public static void main(String[] args) throws Exception {
-        String basePath = "src/Unit_7/Exercises";
-        String prefix   = "Exercise_";
 
-        Path root = Paths.get(basePath);
-        for (int i = 1; i <= 10; i++)
-            Files.createDirectories(root.resolve(prefix + i));
+        for (int unit = 1; unit <= 6; unit++) {
+            String basePath = "src/Unit_" + unit + "/";
+            Path root = Paths.get(basePath);
+
+            String[] baseFolderNames = {"Examples", "Exercises"};
+            for (String name : baseFolderNames) {
+                Files.createDirectories(root.resolve(name));
+            }
+
+            // Create Example folders
+            Path examplesRoot = Paths.get(basePath + "Examples/");
+            for (int ex = 1; ex <= 10; ex++) {
+                Files.createDirectories(examplesRoot.resolve("Example_" + ex));
+            }
+
+            // Create Exercise folders
+            Path exercisesRoot = Paths.get(basePath + "Exercises/");
+            for (int ex = 1; ex <= 10; ex++) {
+                Files.createDirectories(exercisesRoot.resolve("Exercise_" + ex));
+            }
+        }
+
         System.out.println("Done");
     }
 }
