@@ -64,13 +64,13 @@ project-root/
 │                   └── Main.java
 ├── .gitignore
 ├── FinalFinal.iml
+├── LICENSE
 └── README.md    
-
+```
 
 ## 📄 License
 
 This project is licensed under **MIT**. See [LICENSE](LICENSE) for details.
-.
 
 ## 🤝 Contributing
 Contributions are welcome! Suggestions:
