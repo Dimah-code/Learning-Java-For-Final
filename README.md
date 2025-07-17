@@ -35,9 +35,6 @@ Each folder contains `.java` files demonstrating concepts, alongside exercise so
    git clone https://github.com/Dimah-code/Learning-Java-For-Final.git
    cd Learning-Java-For-Final
 
-Open as a Java project in Eclipse—or compile via CLI:
-javac Unit_N.Examples/*.java
-java Example_N_N.Main
 
 ## 📖 How to Use
 Browse chapters sequentially to follow the instructional flow.
