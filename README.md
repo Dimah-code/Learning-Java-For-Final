@@ -51,7 +51,7 @@ Complete exercises without looking at solutions, then compare.
 Use GitHub issues to discuss questions, fixes, or edge cases.
 
 ## 🗂 Project Structure
-
+```text
 project-root/
 │            
 ├── src/                
