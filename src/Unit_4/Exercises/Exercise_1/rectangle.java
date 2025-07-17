@@ -1,6 +1,6 @@
 package Unit_4.Exercises.Exercise_1;
 import java.util.*;
-public class exer_rectangle {
+public class rectangle {
     static Scanner in = new Scanner(System.in);
     private int length, width , perimeter, area;
     public void readSides(){

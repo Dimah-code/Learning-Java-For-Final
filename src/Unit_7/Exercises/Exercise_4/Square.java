@@ -1,12 +1,12 @@
 package Unit_7.Exercises.Exercise_4;
 
-public class SquareExe4 {
+public class Square {
     private double height, width;
     protected double surfaceArea;
-    public SquareExe4(){
+    public Square(){
         setData(0, 0);
     }
-    public SquareExe4(double height, double width){
+    public Square(double height, double width){
         setData(height, width);
     }
     public void setData(double height, double width){

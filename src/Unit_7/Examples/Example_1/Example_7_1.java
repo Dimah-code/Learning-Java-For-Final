@@ -1,8 +1,8 @@
 package Unit_7.Examples.Example_1;
 public class Example_7_1 {
     public static void main(String[] args) {
-        Rectangle_6 rect1 = new Rectangle_6();
-        Rectangle_6 rect2 = new Rectangle_6(8, 6);
+        Rectangle rect1 = new Rectangle();
+        Rectangle rect2 = new Rectangle(8, 6);
 
         Box box1 = new Box();
         Box box2 = new Box(10, 7, 3);

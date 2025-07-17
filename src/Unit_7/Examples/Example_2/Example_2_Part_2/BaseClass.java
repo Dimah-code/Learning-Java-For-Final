@@ -1,13 +1,13 @@
 package Unit_7.Examples.Example_2.Example_2_Part_2;
-public class BaseClass7_1 {
+public class BaseClass {
     private String firstName, lastName;
     public static void sayHello(){
         System.out.println("Hello");
     }
-    public BaseClass7_1(){
+    public BaseClass(){
         setName("Emptyfirst", "Emptylast");
     }
-    public BaseClass7_1(String firstName, String lastName){
+    public BaseClass(String firstName, String lastName){
         setName(firstName, lastName);
     }
     private void setName(String firstName, String lastName){

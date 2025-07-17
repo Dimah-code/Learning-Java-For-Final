@@ -1,12 +1,12 @@
 package Unit_7.Examples.Example_2.Example_2_Part_1;
-public class Person_6 {
+public class Person {
     private String firstName;
     private String lastName;
-    public Person_6(){
+    public Person(){
         firstName = "";
         lastName = "";
     }
-    public Person_6(String first, String last){
+    public Person(String first, String last){
         setName(first, last);
     }
     public void setName(String first , String last){

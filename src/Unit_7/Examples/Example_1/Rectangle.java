@@ -1,10 +1,10 @@
 package Unit_7.Examples.Example_1;
-public class Rectangle_6 {
+public class Rectangle {
     private double length, width;
-    public Rectangle_6(){
+    public Rectangle(){
         setDeimension(0.0, 0.0);
     }
-    public Rectangle_6(double l , double w){
+    public Rectangle(double l , double w){
         setDeimension(l , w);
     }
     public void setDeimension(double l, double w){

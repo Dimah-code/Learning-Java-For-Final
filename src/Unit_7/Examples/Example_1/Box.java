@@ -1,5 +1,5 @@
 package Unit_7.Examples.Example_1;
-public class Box extends Rectangle_6 {
+public class Box extends Rectangle {
     private double height;
     public Box(){
         super();

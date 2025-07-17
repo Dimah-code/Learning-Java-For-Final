@@ -1,8 +1,6 @@
 package Unit_7.Examples.Example_8;
 
-import javax.swing.*;
-
-public class Exercise_8 {
+public class Example_7_8 {
     public static void main(String[] args) {
         RectangleShape rectangle, rectRef;
         BoxShape box, boxRef;

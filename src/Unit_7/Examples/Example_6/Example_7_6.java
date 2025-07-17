@@ -2,7 +2,7 @@ package Unit_7.Examples.Example_6;
 
 import java.util.Scanner;
 
-public class Exercise_6 {
+public class Example_7_6 {
     private static Student[] dayStudents;
     private static NightStudent[] nightStudents;
     static Scanner sc = new Scanner(System.in);

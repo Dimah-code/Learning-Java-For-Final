@@ -1,6 +1,6 @@
 package Unit_7.Examples.Example_5;
 
-public class Exercise_5 {
+public class Example_7_5 {
     public static void main(String[] args) {
         EmployeeServ employee = new EmployeeServ();
         employee.setEmployeeNumber(228398);

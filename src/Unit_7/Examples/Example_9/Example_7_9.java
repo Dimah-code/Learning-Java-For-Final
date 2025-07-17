@@ -1,6 +1,6 @@
 package Unit_7.Examples.Example_9;
 
-public class Exercise_9 {
+public class Example_7_9 {
     public static void main(String[] args) {
         intClass number_1 = new intClass(10);
         intClass number_2 = new intClass(15);

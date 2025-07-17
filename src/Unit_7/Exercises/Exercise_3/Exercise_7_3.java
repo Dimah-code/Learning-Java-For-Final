@@ -2,7 +2,7 @@ package Unit_7.Exercises.Exercise_3;
 
 import java.util.Scanner;
 
-public class Tamrin_3 {
+public class Exercise_7_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Book book = new Book();

@@ -1,6 +1,6 @@
 package Unit_7.Examples.Example_7;
 
-public class Exercise_7 {
+public class Example_7_7 {
 
     public static void main(String[] args) {
         RectangleFigure rectangle, shapeRef;

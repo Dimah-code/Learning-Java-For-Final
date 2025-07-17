@@ -1,6 +1,6 @@
 package Unit_4.Exercises.Exercise_5;
 import java.util.*;
-public class Exer_4_student {
+public class student {
     static Scanner in  = new Scanner(System.in);
     private double score;
     private double avg;

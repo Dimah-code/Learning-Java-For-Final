@@ -1,6 +1,6 @@
 package Unit_7.Exercises.Exercise_4;
 
-public class Cube extends SquareExe4 {
+public class Cube extends Square {
     private double depth;
     public Cube(double height, double width, double depth){
         super(height, width);
