@@ -50,6 +50,23 @@ Complete exercises without looking at solutions, then compare.
 
 Use GitHub issues to discuss questions, fixes, or edge cases.
 
+## 🗂 Project Structure
+
+project-root/
+│            
+├── src/                
+│   └── Unit_N/
+│         ├── Examples/
+│         │    └──Example_N/
+│         │        └── Main.java
+│         └── Exercises/
+│              └── Exercise_N/
+│                   └── Main.java
+├── .gitignore
+├── FinalFinal.iml
+└── README.md    
+
+
 ## 📄 License
 
 This project is licensed under **MIT**. See [LICENSE](LICENSE) for details.
