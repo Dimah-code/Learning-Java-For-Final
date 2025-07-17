@@ -1,3 +1,4 @@
+package Unit_5.Examples.Example_2;
 import java.util.Scanner;
 
 public class Example_5_2 {

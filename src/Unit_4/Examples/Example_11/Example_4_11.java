@@ -1,3 +1,4 @@
+package Unit_4.Examples.Example_11;
 public class Example_4_11 {
     static final double rate = 10.50;
     static int z;

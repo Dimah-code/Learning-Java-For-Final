@@ -1,3 +1,4 @@
+package Unit_4.Examples.Example_7;
 public class Example_4_7 {
     public static void main(String[] args) {
         staticTest obj1 = new staticTest();

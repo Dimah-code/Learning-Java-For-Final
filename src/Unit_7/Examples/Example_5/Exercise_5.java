@@ -1,4 +1,4 @@
-package Unit_7;
+package Unit_7.Examples.Example_5;
 
 public class Exercise_5 {
     public static void main(String[] args) {

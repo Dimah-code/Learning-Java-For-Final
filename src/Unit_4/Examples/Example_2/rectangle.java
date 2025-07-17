@@ -1,3 +1,4 @@
+package Unit_4.Examples.Example_2;
 import java.util.*;
 public class rectangle {
     static Scanner in = new Scanner(System.in);

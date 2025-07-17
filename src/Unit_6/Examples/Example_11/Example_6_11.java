@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_11;
 import java.util.*;
 public class Example_6_11 {
     static Scanner in = new Scanner(System.in);

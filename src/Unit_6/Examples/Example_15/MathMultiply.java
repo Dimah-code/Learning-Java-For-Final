@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_15;
 import java.util.Scanner;
 
 public class MathMultiply {

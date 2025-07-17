@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_9;
 public class ArrayListClass {
     int[] list;
     int numOfElements = 0;

@@ -1,3 +1,4 @@
+package Unit_7.Examples.Example_2.Example_2_Part_1;
 public class Person_6 {
     private String firstName;
     private String lastName;

@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_10;
 public class Clerk {
     private float hours;
     private float rate;

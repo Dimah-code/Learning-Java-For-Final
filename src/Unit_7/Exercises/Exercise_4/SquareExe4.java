@@ -1,4 +1,4 @@
-package Unit_7;
+package Unit_7.Exercises.Exercise_4;
 
 public class SquareExe4 {
     private double height, width;

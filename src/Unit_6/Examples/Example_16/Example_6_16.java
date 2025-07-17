@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_16;
 import java.util.*;
 public class Example_6_16 {
     static Scanner console = new Scanner(System.in);

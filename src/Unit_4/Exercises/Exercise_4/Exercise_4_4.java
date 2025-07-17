@@ -1,3 +1,4 @@
+package Unit_4.Exercises.Exercise_4;
 import java.util.*;
 public class Exercise_4_4 {
     static Scanner in = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package Unit_7;
+package Unit_7.Examples.Example_8;
 
 public class RectangleShape {
     protected double length, width;

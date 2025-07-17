@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_3;
 public class Example_6_3 {
     public static void main(String[] args) {
         int[] nums = {2, 4 , 6, 8};

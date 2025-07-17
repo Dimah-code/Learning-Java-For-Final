@@ -1,4 +1,4 @@
-package Unit_4.Examples.Example_8;
+package Unit_4.Exercises.Exercise_7;
 public class Employee {
     private int salary;
     private String name;

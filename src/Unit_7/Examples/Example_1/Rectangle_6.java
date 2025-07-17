@@ -1,3 +1,4 @@
+package Unit_7.Examples.Example_1;
 public class Rectangle_6 {
     private double length, width;
     public Rectangle_6(){

@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_4;
 import java.text.NumberFormat;
 import java.util.Scanner;
 
@@ -7,7 +8,7 @@ public class Example_6_4 {
         System.out.println("Enter How Many Numbers Do You Need To Enter: ");
         int[] x = new int[in.nextInt()];
         for (int i = 0; i < x.length; i++) {
-            System.out.println("Enter " + i + 1 + "number: ");
+            System.out.println("Enter number " + (i + 1) +": ");
             x[i] = in.nextInt();
         }
         System.out.println("**************\n before calling method");

@@ -1,4 +1,4 @@
-package Unit_7;
+package Unit_7.Exercises.Exercise_3;
 
 public class TextBook extends Book {
     // fields

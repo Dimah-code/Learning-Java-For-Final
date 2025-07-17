@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_2;
 import java.util.Scanner;
 
 public class Exam {
@@ -8,7 +9,7 @@ public class Exam {
         System.out.println("Enter the number of students: ");
         scores = new float[in.nextInt()];
         for(int i = 0; i < scores.length; i++){
-            System.out.print("Score of student " + i + 1 +": ");
+            System.out.print("Score of student " + (i + 1) +": ");
             scores[i] = in.nextFloat();
         }
     }

@@ -1,3 +1,4 @@
+package Unit_7.Examples.Example_1;
 public class Box extends Rectangle_6 {
     private double height;
     public Box(){

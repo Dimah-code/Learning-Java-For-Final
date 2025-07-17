@@ -1,3 +1,4 @@
+package Unit_4.Exercises.Exercise_2;
 public class CheckingAccount {
     private int accountNO;
     private int balance;

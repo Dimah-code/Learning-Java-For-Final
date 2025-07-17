@@ -1,4 +1,4 @@
-package Unit_7;
+package Unit_7.Examples.Example_10;
 
 public class Rect extends GeometricShape {
     protected double length, width;

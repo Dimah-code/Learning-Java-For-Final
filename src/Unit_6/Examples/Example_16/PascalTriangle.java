@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_16;
 public class PascalTriangle {
     private int[][] pasTri;
     private int high;

@@ -1,3 +1,4 @@
+package Unit_7.Examples.Example_2.Example_2_Part_1;
 public class PartTimeEmployee extends Person_6 {
     private int rate;
     private int hours;

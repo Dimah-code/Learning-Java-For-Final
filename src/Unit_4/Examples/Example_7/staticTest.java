@@ -1,3 +1,4 @@
+package Unit_4.Examples.Example_7;
 import java.io.*;
 public class staticTest {
     private int x;

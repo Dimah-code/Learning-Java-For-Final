@@ -1,5 +1,4 @@
-package Unit_7;
-
+package Unit_7.Examples.Example_9;
 
 public abstract class PrimitiveTypeClass {
     //Methods

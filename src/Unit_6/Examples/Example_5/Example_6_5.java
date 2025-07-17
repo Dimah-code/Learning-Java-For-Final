@@ -1,9 +1,12 @@
+package Unit_6.Examples.Example_5;
 import java.util.Scanner;
 public class Example_6_5 {
     static Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
         int[] grades = new int[4];
+        System.out.println("Imagine you have 4 student:");
         for (int i = 0; i < grades.length; i++) {
+            System.out.println("Enter student " + (i + 1) + "th grade: ");
             grades[i] = in.nextInt();
         }
         System.out.println("Before sorting");

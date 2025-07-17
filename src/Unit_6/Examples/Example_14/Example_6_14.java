@@ -1,3 +1,4 @@
+package Unit_6.Examples.Example_14;
 public class Example_6_14 {
     public static void main(String[] args) {
         int[][] board = {{23, 5, 6, 15, 18},

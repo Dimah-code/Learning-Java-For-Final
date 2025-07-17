@@ -1,12 +1,9 @@
+package Unit_6.Examples.Example_6;
 import java.util.Scanner;
 
 public class Example_6_6 {
-    static Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
         int[] nums = {1, 2, 54 ,33, 22, 11,8};
-        //for (int i = 0; i < nums.length; i++) {
-          //  nums[i] = in.nextInt();
-        //}
         insertionSort(nums);
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " , ");

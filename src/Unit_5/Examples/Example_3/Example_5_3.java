@@ -1,7 +1,8 @@
+package Unit_5.Examples.Example_3;
 import  java.util.*;
 public class Example_5_3 {
     public static void main(String[] args) {
-        String str = "Hamidreza loves Zeinab loves pizza loves susage loves oil loves fire", subStr = "loves";
+        String str = "Mouse loves cheese She loves susage", subStr = "loves";
         int count;
         count = spaceCounter(str);
         System.out.println(count);

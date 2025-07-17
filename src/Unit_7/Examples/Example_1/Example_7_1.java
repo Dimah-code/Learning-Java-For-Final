@@ -1,3 +1,4 @@
+package Unit_7.Examples.Example_1;
 public class Example_7_1 {
     public static void main(String[] args) {
         Rectangle_6 rect1 = new Rectangle_6();

@@ -1,3 +1,4 @@
+package Unit_4.Examples.Example_1;
 import java.util.*;
 public class FabricHelper {
     static Scanner in = new Scanner(System.in);
