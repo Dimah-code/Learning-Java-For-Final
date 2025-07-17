@@ -1,5 +1,7 @@
 # 📘 Learning Java (Based on "Step-by-Step Java Programming")
 
+
+
 [![Language: Java](https://img.shields.io/badge/Language-Java-red.svg?style=flat)](https://github.com/Dimah-code/Learning-Java-For-Final)
 [![Content: Examples + Exercises](https://img.shields.io/badge/Includes-Examples_%26_Exercises-blue.svg?style=flat)]()
 
@@ -35,6 +37,9 @@ Each folder contains `.java` files demonstrating concepts, alongside exercise so
    git clone https://github.com/Dimah-code/Learning-Java-For-Final.git
    cd Learning-Java-For-Final
 
+   javac Unit_N/Examples/Example_N/Example_N_N.java
+   java Unit_N/Examples/Example_N/Example_N_N
+   
 
 ## 📖 How to Use
 Browse chapters sequentially to follow the instructional flow.
