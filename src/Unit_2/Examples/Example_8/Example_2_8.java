@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Example_2_8 {
     static Scanner scanner = new Scanner(System.in);
-    static final float PVALUE = 3.14f;
+    static final float P_VALUE = 3.14f;
     public static void main(String[] args){
         float r, p, s;
-        System.out.println("Enter circle's r: ");
+        System.out.println("Enter circle's radius: ");
         r = scanner.nextFloat();
-        p = r * PVALUE * 2;
-        s = r * r * PVALUE;
-        System.out.printf("perimetive = %.2f \n", p);
-        System.out.printf("area = %.2f ", s);
+        p = r * P_VALUE * 2;
+        s = r * r * P_VALUE;
+        System.out.printf("Perimeter = %.2f \n", p);
+        System.out.printf("Area = %.2f ", s);
     }
 }
