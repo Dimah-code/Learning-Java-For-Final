@@ -6,13 +6,15 @@ public class Example_2_11 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int a , b , c;
-        System.out.println("Enter 3 number: ");
-        a = scanner.nextInt();
-        b = scanner.nextInt();
-        c = scanner.nextInt();
+        int num1 , num2 , num3;
+        System.out.println("Enter first number: ");
+        num1 = scanner.nextInt();
+        System.out.println("Enter second number: ");
+        num2 = scanner.nextInt();
+        System.out.println("Enter third number: ");
+        num3 = scanner.nextInt();
         scanner.close();
-        MaxNum(a, b , c);
+        MaxNum(num1, num2, num3);
     }
     public static void MaxNum(int x , int y , int z){
          int max = x;
