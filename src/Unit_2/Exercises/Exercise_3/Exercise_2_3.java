@@ -10,6 +10,7 @@ public class Exercise_2_3 {
         height = scanner.nextDouble();
         System.out.println("Enter triangle's base: ");
         base = scanner.nextDouble();
+        scanner.close();
         area = (height * base) / 2;
         System.out.println("Height: " + height);
         System.out.println("Base: " + base);
