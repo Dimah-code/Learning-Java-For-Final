@@ -1,0 +1,9 @@
+Why is Java considered platform-independent?
+
+Java is considered platform-independent because Java programs are compiled into bytecode,
+which is not specific to any one machine or operating system. This bytecode runs on the Java Virtual Machine (JVM),
+and since the JVM is available for many different platforms (Windows, Linux, macOS, etc.),
+the same compiled Java program can run anywhere the JVM is installed.
+This principle is often summed up as:
+
+    "Write once, run anywhere."

@@ -20,9 +20,10 @@ A complete collection of code examples and exercises from the Persian book **"St
 ---
 
 ## 🚀 Repository Contents
-
-Unit 1: 
-
+```text
+Unit 1: Basics of Java Programming Language
+Unit 2: 
+```
 
 Each folder contains `.java` files demonstrating concepts, alongside exercise solutions and any necessary assets (e.g., `.txt` input files).
 

@@ -1,0 +1,17 @@
+Question:
+    Which one of the following variables is correct?
+    A) Stop!
+    B) MIX-UP
+    C) 1-x
+    D) x-1
+    E) First Exam
+    F) exam1
+
+Answer:
+    F) is correct
+
+    Incorrect--------Incorrect
+    Stop!            Stop
+    MIX-UP           MIX_UP
+    1-x              x_1
+    First Exam       First_Exam
