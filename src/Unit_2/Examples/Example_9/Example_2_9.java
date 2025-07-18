@@ -1,19 +1,27 @@
 package Unit_2.Examples.Example_9;
 
 import java.util.Scanner;
-
 public class Example_2_9 {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
-        int num1, num2, num3;
-        float avg;
-        System.out.println("Enter 3 numbers: ");
-        num1 = scanner.nextInt();
-        num2 = scanner.nextInt();
-        num3 = scanner.nextInt();
-        avg = (num1 + num2 + num3) / 3;
-        System.out.printf("average without float casting = %5.2f", avg);
-        avg = (float)(num1 + num2 + num3 ) / 3;
-        System.out.printf("\n average with float casting = %5.2f", avg);
+        String firstName, lastName, line;
+        int age;
+        double weight;
+        System.out.print("Enter first name, last name, " +
+                "age, and weight separted by space:\n");
+        line = scanner.nextLine();
+        System.out.println("Line is " + line);
+
+        System.out.print("Enter first name, last name, " +
+                "age, and weight separted by space:\n");
+        firstName = scanner.next();
+        lastName = scanner.next();
+        age = scanner.nextInt();
+        weight = scanner.nextDouble();
+
+        System.out.println("Name: " + firstName + " " + lastName);
+        System.out.println("Age: " + age);
+        System.out.println("Weight: " + weight);
+
     }
 }
