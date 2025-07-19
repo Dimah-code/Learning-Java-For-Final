@@ -7,11 +7,14 @@ public class Example_3_5 {
 
     public static void main(String[] args) {
         System.out.println("Enter a number to find factorial: ");
-        int num = scanner.nextInt();
-        long f = 1;
-        for(int i = 2; i <= num; i++){
-            f *= i;
+        int input = scanner.nextInt();
+        System.out.printf("Factorial of number %d = %d\n", input, factorial(input));
+    }
+    public static long factorial(int number){
+        long factorial = 1;
+        for(int i = 2; i <= number; i++){
+            factorial *= i;
         }
-        System.out.println("Factorial of number " + num + " => " + f);
+        return factorial;
     }
 }
