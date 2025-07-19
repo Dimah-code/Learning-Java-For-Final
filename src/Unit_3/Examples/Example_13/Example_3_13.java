@@ -6,11 +6,15 @@ public class Example_3_13 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int inp;
+        int input;
         boolean done = true;
         while(done){
-            inp = scanner.nextInt();
-            switch (inp){
+            System.out.println("Enter lamp's walt to find price(0 = stop): ");
+            input = scanner.nextInt();
+            switch (input){
+                case 0:
+                    done = false;
+                    break;
                 case 40:
                     System.out.println("40 Walt = 1000Rials");
                     break;
@@ -29,10 +33,8 @@ public class Example_3_13 {
                     break;
                 default:
                     System.out.println("Invalid Input ");
-                    done = false;
-                    break;
+                    continue;
             }
         }
-
     }
 }
