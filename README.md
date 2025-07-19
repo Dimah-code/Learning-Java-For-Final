@@ -15,7 +15,7 @@ A complete collection of code examples and exercises from the Persian book **"St
 * **Author**: Dr. Einollah Jafarnejad Qomi (دکتر عین الله جعفرنژاد قمی)  
 * **Publisher**: Olom Rayaneh (علوم رایانه)  
 * **Edition**: 2nd (approx. 600 pages, 2022/2023) :contentReference[oaicite:1]{index=1}  
-* **Scope**: Covers Java’s essentials progressively—from basic data types and control structures to classes, methods, recursion, and file I/O—designed with practical Eclipse-based examples :contentReference[oaicite:2]{index=2}.
+* **Scope**: Covers Java’s essentials progressively—from basic data types and control structures to classes, methods, recursion, and file I/O—designed with practical Eclipse-based examples.
 
 ---
 
@@ -25,11 +25,6 @@ Unit 1: Basics of Java Programming Language
 Unit 2: Program structure in Java and input - output
 Unit 3: Control Structures 
 ```
-
-Each folder contains `.java` files demonstrating concepts, alongside exercise solutions and any necessary assets (e.g., `.txt` input files).
-
-
----
 
 ## 🧩 How to Run
 
