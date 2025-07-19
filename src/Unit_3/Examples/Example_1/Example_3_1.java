@@ -6,13 +6,13 @@ public class Example_3_1 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int x ,i , sum = 0, avg;
-        System.out.println("Enter 5 number to find average: ");
-        for(i = 1; i <= 5 ; i++){
-            x = scanner.nextInt();
-            sum += x;
+        int input, sum = 0, average;
+        for(int i = 1; i <= 5 ; i++){
+            System.out.printf("Enter number %d: \n", i);
+            input = scanner.nextInt();
+            sum += input;
         }
-        avg = sum / 5;
-        System.out.println("average = " + avg);
+        average = sum / 5;
+        System.out.printf("average = %d", average);
     }
 }
