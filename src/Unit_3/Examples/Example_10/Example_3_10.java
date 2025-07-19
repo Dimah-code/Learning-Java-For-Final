@@ -15,12 +15,16 @@ public class Example_3_10 {
      char order = 'F';
      if(grade >= 17 && grade <= 20){
          order = 'A';
-     } else if (grade < 17 && grade >= 15) {
-         order = 'B';
-     } else if (grade < 15 && grade >= 12) {
-         order = 'C';
-     } else if (grade < 12) {
-         order = 'D';
+     } else {
+         if (grade < 17 && grade >= 15) {
+             order = 'B';
+         }else {
+             if (grade < 15 && grade >= 12) {
+                 order = 'C';
+             }else {
+                order = 'D';
+             }
+         }
      }
     return order;
     }
