@@ -6,14 +6,14 @@ public class Example_3_15 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int n;
-        System.out.println("Enter a number: ");
-        n = scanner.nextInt();
-        System.out.printf("fact(%d) = " + fact(n) , n);
+        int input;
+        System.out.println("Enter a number to find factorial: ");
+        input = scanner.nextInt();
+        System.out.printf("fact(%d) = %d", input, fact(input));
     }
-    public static long fact(int n){
-        if(n != 0)
-                    return n * fact(n - 1);
+    public static long fact(int number){
+        if(number != 0)
+                    return number * fact(number - 1);
              return 1;
     }
 }
