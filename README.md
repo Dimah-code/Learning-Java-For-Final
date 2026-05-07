@@ -1,6 +1,6 @@
 # Advanced Java Programming
 
-[![Language: Java](https://img.shields.io/badge/Language-Java-red.svg?style=for-the-badge)](https://github.com/Dimah-code/advanced-java-programming)
+[![Language: Java](https://img.shields.io/badge/Language-Java-red.svg?style=for-the-badge)](https://github.com/geekmanesh/advanced-java-programming)
 [![Content: Examples + Exercises](https://img.shields.io/badge/Includes-Examples_%26_Exercises-blue.svg?style=for-the-badge)]()
 
 A complete collection of code examples and exercises from the Persian book **"Step-by-Step Java Programming"** by Dr. Einollah Jafarnejad Qomi. This repository serves both as a learning resource and a ready-to-run code archive.
@@ -33,7 +33,7 @@ Unit 7: Inheritance and Polymorphism
 1. Install **Java JDK 8+** and optionally **Eclipse IDE** (as in the book).
 2. Clone the repo:
    ```bash
-   git clone https://github.com/Dimah-code/advanced-java-programming.git
+   git clone https://github.com/geekmanesh/advanced-java-programming.git
    cd advanced-java-programming
 
    javac unit_0N/Examples/Example_N/Example_N_N.java
@@ -80,8 +80,8 @@ Contributions are welcome! Suggestions:
 
 ## Author
 
-Dimah‑code
-– Repository maintained by Hamidreza
+Geekmanesh
+– Repository maintained by geekmanesh
 
 ## License
 
